@@ -1,13 +1,6 @@
-function App() {
-  return (
-    <>
-      <div>
-        <h1>
-          CareMesh is running
-        </h1>
-      </div>
-    </>
-  )
-}
+import { BrowseFeature } from "./features/browse/BrowseFeature";
 
-export default App
+export default function App() {
+  return <BrowseFeature />;
+  
+}
