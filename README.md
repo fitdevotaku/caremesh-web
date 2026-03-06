@@ -1,17 +1,17 @@
-# CareMesh Web
+# Caremesh Web
 
-CareMesh Web is the frontend interface for the CareMesh system.
+Caremesh Web is the frontend interface for the Caremesh system.
 It is built with React and TypeScript and designed carefully from the start. The goal is not to rush features or make screens appear. The goal is to build a system that can grow into real healthcare partnerships and real operational complexity.
 
 Healthcare access breaks down more often than people realize. Medications become discontinued locally. Pharmacies lose visibility into supplier networks. Patients are left searching pharmacy to pharmacy trying to locate medications that may still exist somewhere upstream in the supply chain.
 
-CareMesh approaches the problem from a systems perspective.
+Caremesh approaches the problem from a systems perspective.
 
 Instead of asking patients to search endlessly for medication, the system is designed to search fulfillment paths on their behalf. That means understanding relationships between manufacturers, suppliers, pharmacies, and regional availability. The platform models those relationships so requests can eventually be routed intelligently rather than guessed.
 
 This repository represents the web layer of that system.
 
-CareMesh Web acts as the user facing surface where patients, partners, and eventually healthcare operators can interact with the platform. The interface is intentionally built with clear boundaries so it can evolve safely as the backend system grows.
+Caremesh Web acts as the user facing surface where patients, partners, and eventually healthcare operators can interact with the platform. The interface is intentionally built with clear boundaries so it can evolve safely as the backend system grows.
 
 The structure of the frontend follows a simple rule. Features own behavior. Pages remain thin.
 
@@ -51,7 +51,7 @@ The UI currently renders a search input, a results list, and a medication detail
 
 ## Architectural Approach
 
-CareMesh Web is built around a few simple rules that guide every change.
+Caremesh Web is built around a few simple rules that guide every change.
 
 Structure before logic.
 Names before code.
@@ -86,6 +86,6 @@ The goals are to refine the feature’s public interface, introduce routing in a
 
 Location awareness and pharmacy context will eventually enter the system as well. That work will only begin once the current structure proves stable.
 
-CareMesh is still early.
+Caremesh is still early.
 
 But the foundation is being laid carefully so the system can grow into something real rather than collapsing under its own complexity.
